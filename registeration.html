@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+</head>
+<body style="background-color: mintcream;">
+    <table width="50%" align="center" style="background-color: lightgreen;">
+        <tr style="height: 70px;">
+            <td style="border: double; text-align: center; border-radius: 10px;">
+            <font color="green" size="300px">Learner Registeration Form</font>
+        </td>
+        </tr>
+        <tr>
+            <td style="padding-top: 30px; padding-left:50px">
+                <form> 
+                    Name:
+                    <br>
+                    <input type="text" name="n" size="70" placeholder="Enter Full Name.">
+                    <br>
+                    <br>
+                    Father's Name:
+                    <br>
+                    <input type="text" name="dadname" size="70">
+                    <br>
+                    <br>
+                    Mother's Name:
+                    <br>
+                    <input type="text" name="momname" size="70">
+                    <br>
+                    <br>
+                    Mobile Phone Number: 
+                    <br>
+                    <input type="tel" name="phonenum" size="70" pattern="09[0-9]{9}" placeholder="09-xxxxxxxxx">
+                    <br>
+                    <br>
+                    Email:
+                    <br>
+                    <input type="email"  name="mail" size="70" placeholder="sample@example.com">
+                    <br>
+                    <br>
+                    Gender:
+                    <br>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="animal">
+                    <label for="animal">Other</label>
+                    <br>
+                    <br>
+                    Date of Birth:
+                    <br>
+                    <input type="date" name="DOB">
+                    <br>
+                    <br>
+                    Address:
+                    <br>
+                    <input type="text" name="address" size="70" placeholder="House, Street, Township, State/ Division">
+                    <br>
+                    <br>
+                    Blood Group:
+                    <br>
+                    <select name="blood">
+                        <option value="a">A</option>
+                        <option value="b">B</option>
+                        <option value="o">O</option>
+                        <option value="ot">Other</option>
+                    </select>
+                    <br>
+                    <br>
+                    Course:
+                    <br>
+                    <input type="checkbox" name="b">
+                    <label for="b">Beginner</label>
+                    <br>
+                    <input type="checkbox" name="i">
+                    <label for="b">Intermediate</label>
+                    <br>
+                    <input type="checkbox" name="a">
+                    <label for="b">Advanced</label>
+                    <br>
+                    <br>
+                    Bio Photo: 
+                    <br>
+                    <input type="file" name="image">
+                    <br>
+                    <br>
+                    <label for="desire is weak">Desired Classmates</label>
+                    <br>
+                    <input type="number" id="desire is weak" name="desire" min="5" max="20" step="5" value="10">
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" value="Register">
+                    <input type="reset" name="reset" value="Reset">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
